@@ -1,0 +1,11 @@
+{
+  "name": "gulp-esm",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yukinouz1",
+  "license": "UNLICENSED",
+  "private": "true"
+}
