@@ -1,11 +1,13 @@
-import gulp from "gulp";
-import * as dartSass from "sass";
-const sass = gulpSass(dartSass);
-import gulpSass from "gulp-sass";
-import gulpPostCss from "gulp-postcss";
 import autoprefixer from "autoprefixer";
 import cssnanoPlugin from "cssnano";
+import gulp from "gulp";
+import gulpPostCss from "gulp-postcss";
+import gulpSass from "gulp-sass";
+import * as dartSass from "sass";
+
 import paths from "./paths.mjs";
+
+const sass = gulpSass(dartSass);
 const postcssPlugins = [autoprefixer(), cssnanoPlugin()];
 
 const compileSass = (done) => {

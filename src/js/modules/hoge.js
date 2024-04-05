@@ -1,5 +1,5 @@
 const hoge = () => {
-  console.log("hello");
+  alert("hello");
 };
 
 export default hoge;

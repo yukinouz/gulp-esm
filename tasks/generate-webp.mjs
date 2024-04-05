@@ -1,5 +1,6 @@
 import gulp from "gulp";
 import webp from "gulp-webp";
+
 import paths from "./paths.mjs";
 
 const webpJpg = (done) => {

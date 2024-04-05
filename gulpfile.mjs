@@ -1,11 +1,12 @@
 import gulp from "gulp";
+
+import { buildServer, browserReload } from "./tasks/browser-sync.mjs";
+import { bundleJs } from "./tasks/bundle-js.mjs";
+import { clean as del } from "./tasks/clean.mjs";
+import { compilePug } from "./tasks/compile-pug.mjs";
 import { compileSass } from "./tasks/compile-sass.mjs";
 import { compressImages } from "./tasks/compress-images.mjs";
 import { webpJpg, webpPng } from "./tasks/generate-webp.mjs";
-import { clean as del } from "./tasks/clean.mjs";
-import { buildServer, browserReload } from "./tasks/browser-sync.mjs";
-import { bundleJs } from "./tasks/bundle-js.mjs";
-import { compilePug } from "./tasks/compile-pug.mjs";
 import paths from "./tasks/paths.mjs";
 
 const watchFiles = () => {

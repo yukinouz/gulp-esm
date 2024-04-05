@@ -1,6 +1,7 @@
 import gulp from "gulp";
-import imagemin from "gulp-imagemin";
 import changed from "gulp-changed";
+import imagemin from "gulp-imagemin";
+
 import paths from "./paths.mjs";
 
 const compressImages = (done) => {
