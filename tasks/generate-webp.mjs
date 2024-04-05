@@ -27,5 +27,4 @@ const webpPng = (done) => {
     .on("end", done);
 };
 
-export { webpJpg };
-export { webpPng };
+export { webpJpg, webpPng };
