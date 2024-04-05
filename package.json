@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "gulp del && gulp",
+    "dev": "gulp del && gulp build && gulp",
     "build": "gulp build"
   },
   "author": "yukinouz1",
@@ -11,6 +11,7 @@
   "private": "true",
   "devDependencies": {
     "autoprefixer": "10.4.19",
+    "browser-sync": "^3.0.2",
     "browserslist": "4.23.0",
     "cssnano": "6.1.2",
     "del": "^7.1.0",
