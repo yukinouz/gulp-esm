@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp",
+    "build": "gulp build"
   },
   "author": "yukinouz1",
   "license": "UNLICENSED",
-  "private": "true"
+  "private": "true",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.38",
+    "sass": "^1.72.0"
+  }
 }
