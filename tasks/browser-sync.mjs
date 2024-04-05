@@ -3,7 +3,7 @@ import browserSync from "browser-sync";
 const buildServer = (done) => {
   browserSync.init({
     server: {
-      baseDir: "./",
+      baseDir: "./dist",
     },
     open: false,
     watchOptions: {
