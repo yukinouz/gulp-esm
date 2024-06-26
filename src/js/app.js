@@ -1,3 +1,3 @@
-import hoge from "./modules/hoge";
+import displayAlert from "./modules/alert";
 
-hoge();
+displayAlert();

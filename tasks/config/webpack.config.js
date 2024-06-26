@@ -19,7 +19,6 @@ module.exports = {
         ],
       },
       {
-        // node_modules内のcss
         test: /node_modules\/(.+)\.css$/,
         use: [
           {
