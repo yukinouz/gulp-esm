@@ -3,12 +3,14 @@ import webp from "gulp-webp";
 
 import paths from "./paths.mjs";
 
+const quality = 85; // default: 75
+
 const webpJpg = (done) => {
   gulp
     .src(`${paths.dist.img}/*.{jpg,jpeg}`, { since: gulp.lastRun(webpJpg) })
     .pipe(
       webp({
-        quality: 85,
+        quality: quality,
       }),
     )
     .pipe(gulp.dest(paths.dist.img))
@@ -20,7 +22,7 @@ const webpPng = (done) => {
     .src(`${paths.dist.img}/*.png`, { since: gulp.lastRun(webpPng) })
     .pipe(
       webp({
-        quality: 85,
+        quality: quality,
         lossless: true,
       }),
     )
