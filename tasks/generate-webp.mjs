@@ -9,7 +9,7 @@ const webpJpg = (done) => {
     .pipe(
       webp({
         quality: 85,
-      })
+      }),
     )
     .pipe(gulp.dest(paths.dist.img))
     .on("end", done);
@@ -22,7 +22,7 @@ const webpPng = (done) => {
       webp({
         quality: 85,
         lossless: true,
-      })
+      }),
     )
     .pipe(gulp.dest(paths.dist.img))
     .on("end", done);

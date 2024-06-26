@@ -10,7 +10,7 @@ const compilePug = (done) => {
       pug({
         pretty: true,
         basedir: "src/pug",
-      })
+      }),
     )
     .pipe(gulp.dest(paths.dist.pug))
     .on("finish", done);

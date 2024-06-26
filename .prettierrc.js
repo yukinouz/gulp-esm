@@ -1,4 +1,4 @@
 module.exports = {
   plugins: ["@prettier/plugin-pug"],
-  pugPrintWidth: 120
-}
+  pugPrintWidth: 120,
+};

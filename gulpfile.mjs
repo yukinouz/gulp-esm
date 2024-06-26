@@ -19,7 +19,7 @@ const build = gulp.parallel(
   compileSass,
   compilePug,
   bundleJs,
-  gulp.series(compressImages, gulp.parallel(webpJpg, webpPng))
+  gulp.series(compressImages, gulp.parallel(webpJpg, webpPng)),
 );
 
 // 名前付きエクスポート;
