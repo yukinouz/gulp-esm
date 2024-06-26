@@ -2,6 +2,13 @@
 
 ES Modulesを使ったGulp環境アセットです。
 
+## 使用技術
+
+- Gulp 5.x
+- Pug
+- Scss
+- Javascript(Vanilla)
+
 ## 環境説明
 
 ## 初回インストール
